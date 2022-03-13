@@ -143,9 +143,9 @@ export const HfourTag = styled.h4`
 `
 export const ListSideBarMap = styled.div`
 flex-basis: 70%;
-
 @media (max-width: ${991}px) {
     order:  0;
+    margin-top:0px;
    }   
 `
 export const MapBtn = styled.button`
