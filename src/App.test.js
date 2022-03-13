@@ -1,8 +1,28 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import {render} from '@testing-library/react'
+import store from './redux/store';
+import { Provider } from 'react-redux'
+import SearchComponent from "./components/Search"
+import List from "./components/List"
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+it('shows the name in search component', async () => {
+  const {findByText} = render(
+       <Provider store={store}>
+           <SearchComponent />
+       </Provider>
+   );
+  expect(await findByText('SPACE TRIPS')).toBeInTheDocument();
 });
+
+// it('shows the name list component', async () => {
+//   const {findByText} = render(
+//        <Provider store={store}>
+//            <List />
+//        </Provider>
+//    );
+//    render(<List />);
+// });
+
+
+
+
