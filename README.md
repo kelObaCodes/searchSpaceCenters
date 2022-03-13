@@ -26,6 +26,26 @@ The application is responsive on both desktop and mobile
 NOTE - `onResize event` has not been implemented yet
 you have to refresh the page (only once) when viewing on desktop and mobile
 
+
+### App Context
+
+The app at it's core is separated into 3 components
+# List
+# Notification
+# Search
+
+For state management : The shared state within each component is handled by `Redux`
+
+For styling: `Styled components` plugin was used
+
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -40,7 +60,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Launches the test runner in the interactive watch mode.\
 
-
+5 tests was carried out overall
 
 
 
