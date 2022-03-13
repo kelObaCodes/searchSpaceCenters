@@ -1,11 +1,8 @@
 # Getting Started with the project
 
-step  1 - type `npm install` in your terminal to install all dependencies
-&nbsp;
-step 2 - Add env variables (please check the `ENV variables` section )
-&nbsp;
-step 3 - start the `graphql server` by running `docker-compose up -d` in your terminal
-&nbsp;
+step  1 - type `npm install` in your terminal to install all dependencies\
+step 2 - Add env variables (please check the `ENV variables` section )\
+step 3 - start the `graphql server` by running `docker-compose up -d` in your terminal\
 step 4 - type `npm run start` to start the project
 
 
