@@ -8,23 +8,6 @@ step 4 - type `npm run start` to start the project
 
 final step - have fun :)
 
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-
 ### ENV variables
 
 REACT_APP_MAP_TOKEN=pk.eyJ1Ijoia2VsdmkiLCJhIjoiY2wwaTJqYWk4MDAxNjNqcHJkaW5tMmo5dyJ9.UqeBPanvae5-8_wk2QMs5A
@@ -42,5 +25,22 @@ REACT_APP_MAP_BOX_ACCESS_TOKEN=pk.eyJ1Ijoia2VsdmkiLCJhIjoiY2wwaTJqYWk4MDAxNjNqcH
 The application is responsive on both desktop and mobile 
 NOTE - `onResize event` has not been implemented yet
 you have to refresh the page (only once) when viewing on desktop and mobile
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+
+
+
 
 
